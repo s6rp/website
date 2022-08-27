@@ -1,0 +1,79 @@
+/*   _____         _____  _____    
+  / ____|  /\   |  __ \|  __ \ _ 
+ | (___   /  \  | |__) | |__) (_)
+  \___ \ / /\ \ |  _  /|  ___/   
+  ____) / ____ \| | \ \| |     _ 
+ |_____/_/    \_\_|  \_\_|    ( )
+                              |/
+ ♡ Thanks to Danny for help ♡                             
+ */                                
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Comic Neue";
+}
+
+#content {
+    width: -webkit-fill-available;
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+
+.box {
+    width: 480px;
+    background: white;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.pepe {
+    width: 25px;
+}
+
+.box h1 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.box h5 {
+justify-content: center;
+}
+
+.box p {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .image {
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .box p {
+        text-align: center;
+    }
+}
