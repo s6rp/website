@@ -16,7 +16,7 @@
 
 body {
     background-color: darkgray;
-    margin: 0;
+    margin: 20;
     padding: 0;
     background: url(bgtest.jpg) no-repeat;
     background-size: cover;
