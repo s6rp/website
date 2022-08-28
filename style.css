@@ -15,8 +15,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
 body {
+    overflow: hidden; 
     background-color: darkgray;
-    margin: 20;
+    margin: 10px;
     padding: 0;
     background: url(bgtest.jpg) no-repeat;
     background-size: cover;
