@@ -54,6 +54,7 @@ body {
 }
 
 .image {
+    justify-content: center;
     width: 150px;
     height: 150px;
     float: left;
